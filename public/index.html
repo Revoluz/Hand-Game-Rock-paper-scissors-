@@ -15,7 +15,9 @@
         <title>Document</title>
     </head>
     <body class="flex flex-col gap-10 bg-[#F6F2EF] h-screen">
-        <h1 class="font-inter text-5xl font-normal text-center mt-10">
+        <h1
+            class="font-inter md:text-5xl text-2xl font-normal text-center mt-10"
+        >
             ROCK PAPER SCISSORS
         </h1>
         <div class="h-2/5 w-full">
@@ -25,22 +27,28 @@
                     <div class="result_images">
                         <span class="computer_result">
                             <img
-                                class="w-[260px] h-[260px]"
+                                class="md:w-[260px] md:h-[260px]"
                                 src="img/shuffleRock2.png"
                                 alt=""
                                 id="image1"
                             />
                         </span>
-                        <h2 class="text-center font-inter font-medium text-2xl">
+                        <h2
+                            class="text-center font-inter font-medium text-xl md:text-2xl"
+                        >
                             BOT
                         </h2>
                     </div>
                     <div class="w-12 flex flex-col align-middle items-center">
                         <div class="h-full w-1 bg-black opacity-20"></div>
-                        <h3 class="result font-inter font-bold text-3xl pt-3">
+                        <h3
+                            class="result font-inter font-bold text-xl md:text-3xl pt-3"
+                        >
                             Start
                         </h3>
-                        <h3 class="text-3xl flex gap-4 font-normal">
+                        <h3
+                            class="md:text-3xl text-lg flex gap-4 font-medium md:font-normal"
+                        >
                             <span id="computer-score">0</span> -
                             <span id="user-score">0</span>
                         </h3>
@@ -49,13 +57,15 @@
                     <div class="result_image">
                         <span class="user_result">
                             <img
-                                class="w-[260px] h-[260px]"
+                                class="md:w-[260px] md:h-[260px]"
                                 src="img/shuffleRock1.png"
                                 alt=""
                                 id="image2"
                             />
                         </span>
-                        <h2 class="text-center font-inter font-medium text-2xl">
+                        <h2
+                            class="text-center font-inter font-medium text-xl md:text-2xl"
+                        >
                             YOU
                         </h2>
                     </div>
@@ -66,9 +76,9 @@
         <div class="flex flex-col items-center">
             <h4 class="font-inter text-center font-bold text-2xl">CHOOSE</h4>
             <div class="flex">
-                <div class="w-64 option_image cursor-pointer" id="r">
+                <div class="md:w-64 option_image cursor-pointer" id="r">
                     <img
-                        class="w-[200px] h-[200px] m-auto"
+                        class="md:w-[200px] md:h-[200px] w-32"
                         src="img/resultRock1.png"
                         alt=""
                     />
@@ -76,9 +86,9 @@
                         Rock
                     </h5>
                 </div>
-                <div class="w-64 option_image cursor-pointer" id="p">
+                <div class="md:w-64 option_image cursor-pointer" id="p">
                     <img
-                        class="w-[200px] h-[200px] m-auto"
+                        class="md:w-[200px] md:h-[200px] w-32"
                         src="img/resultPaper1.png"
                         alt=""
                     />
@@ -86,9 +96,9 @@
                         Paper
                     </h5>
                 </div>
-                <div class="w-64 option_image cursor-pointer" id="s">
+                <div class="md:w-64 option_image cursor-pointer" id="s">
                     <img
-                        class="w-[200px] h-[200px] m-auto"
+                        class="md:w-[200px] md:h-[200px] w-32"
                         src="img/resultScissors1.png"
                         alt=""
                     />
