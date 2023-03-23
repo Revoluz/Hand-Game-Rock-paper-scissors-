@@ -561,8 +561,20 @@ video {
   height: 100vh;
 }
 
+.h-\[260px\] {
+  height: 260px;
+}
+
 .max-h-\[320px\] {
   max-height: 320px;
+}
+
+.max-h-\[310px\] {
+  max-height: 310px;
+}
+
+.max-h-\[260px\] {
+  max-height: 260px;
 }
 
 .w-1 {
@@ -585,8 +597,16 @@ video {
   width: 100%;
 }
 
+.w-\[260px\] {
+  width: 260px;
+}
+
 .max-w-\[350px\] {
   max-width: 350px;
+}
+
+.max-w-\[260px\] {
+  max-width: 260px;
 }
 
 .border-spacing-2 {
